@@ -3,11 +3,9 @@
 use ShopExpress\ApiClient\ApiClient;
 use ShopExpress\ApiClient\Response\ApiResponse;
 $ApiClient = new ApiClient(
-    array(
-        'login' => 'admin',
-        'api_key' => 'API_KEY',
-        'api_url' => 'http://www.site.com/adm/api/'
-    )
+    'API_KEY',
+    'admin',
+    'http://www.site.com/adm/api/'
 );
 ```
 ## getters
